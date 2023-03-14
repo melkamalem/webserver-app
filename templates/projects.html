@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+			<a class="title">Key Projects</a>
+				<nav>
+					<ul>
+						<form>
+							<input type="button" value="Go back!" onclick="history.back()">
+						   </form>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h2 class="major">Microservices with Fargate to process event-tickets.</h2>
+							<p><ul>
+								<li>Deployed REST-API on API gateway to route requests to an SQS queue.</li>
+								<li>Created a DynamoDB table to store ticket information and built the Docker image of the application and pushed it to an ECR repository using the Cloud9 IDE</li>
+								<li>Created a CloudWatch alarm and ECS clusters with task definitions and services for the auto scaling.</li>
+							</ul></p>
+						</div>
+					</section>
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h2 class="major">Lyft and shift of shopping website to Serverless.</h2>
+							<p><ul>
+								<li>Created Aurora serverless cluster and migrated MySQL database to the cluster.</li>
+								<li>Configured Lambda function to deploy the application serverless.</li>
+								<li>Created an S3 bucket to host the application’s static files.</li>
+								<li>Configured a CloudFront distribution for the entry point of the application.</li>
+								<li>Created a custom metric filter using page-view logs on CloudWatch and created a lambda function for log processing. </li>
+								<li>Created a subscription filter for new subscriber and that invokes the lambda function.</li>
+							</ul></p>
+						</div>
+					</section>
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h2 class="major">Securing Networks and Ec2 services and monitoring overall security for upcoming migration to AWS.</h2>
+							<p><ul>
+								<li>Created a three-security zone network infrastructure.</li>
+								<li>Implemented network segmentation using security groups, network ACLs, and public and private subnets.</li>
+								<li>Monitored network traffic to EC2 instances using VPC flow logs.</li>
+								<li>Created a custom AMI and deployed a new EC2 instance from a custom AMI.</li>
+								<li>Patched an EC2 instance using AWS Systems Manager</li>
+								<li>Encrypted an EBS volume from a non-encrypted volume using snapshots</li>
+								<li>Configured an Amazon Linux 2 instance to send log files to Amazon CloudWatch</li>
+								<li>Created Amazon CloudWatch alarms and notifications to monitor for failed login attempts and network traffic through the NAT gateway.</li>
+							</ul></p>
+						</div>
+					</section>
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h2 class="major">Built and Deployed a Containerized Application with Amazon Elastic Kubernetes Service</h2>
+							<p><ul>
+									<li>Prepared the Docker image and pushed it to an Amazon ECR repository.</li>
+									<li>Installed the AWS Load Balancer Controller to route HTTP and HTTPS traffic to Kubernetes’ pods.</li>
+									<li>Deployed the application into Amazon EKS cluster and configured IAM roles for amazon EKS pods.</li>
+									<li>Configured CloudWatch Container Insights on the Kubernetes cluster.</li>
+								</ul></p>
+						</div>
+					</section>
+
+			</div>
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>

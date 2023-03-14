@@ -1,0 +1,19 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "My web server",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melkamalem/portfo.git"
+  },
+  "author": "Melkam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melkamalem/portfo/issues"
+  },
+  "homepage": "https://github.com/melkamalem/portfo#readme"
+}
